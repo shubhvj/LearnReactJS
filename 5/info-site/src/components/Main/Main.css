@@ -5,13 +5,10 @@
 
 li {
     padding: 10px;
-    list-style-type: none;
+    list-style-type: circle;
 }
 
-li::before {
-    content: "\2022";
+li::marker {
     color: aqua;
-    margin-left: -50px;
-    margin-right: 12px;
     font-size: 20px;
 }
