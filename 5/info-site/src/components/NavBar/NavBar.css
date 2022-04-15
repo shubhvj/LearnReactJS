@@ -1,0 +1,23 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(24, 25, 34);
+    padding: 10px;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logoText{
+    color: #61DAFB;
+}
+
+@media screen and (max-width: 440px){
+    .header{
+        flex-direction: column;
+    }
+}

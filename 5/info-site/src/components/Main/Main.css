@@ -1,0 +1,17 @@
+.main-div{
+    color: whitesmoke;
+    padding: 20px;
+}
+
+li {
+    padding: 10px;
+    list-style-type: none;
+}
+
+li::before {
+    content: "\2022";
+    color: aqua;
+    margin-left: -50px;
+    margin-right: 12px;
+    font-size: 20px;
+}
